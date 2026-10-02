@@ -1,0 +1,138 @@
+{
+ "Elad2026-rule": {
+  "auc_hour_only": 0.957,
+  "ci_hour_only": [
+   0.954,
+   0.96
+  ],
+  "auc_hour_length": 1.0,
+  "ci_hour_length": [
+   1.0,
+   1.0
+  ],
+  "auc_gain_from_length": 0.043,
+  "ci_gain": [
+   0.04,
+   0.046
+  ]
+ },
+ "FLOOR-C": {
+  "auc_hour_only": 0.957,
+  "ci_hour_only": [
+   0.955,
+   0.96
+  ],
+  "auc_hour_length": 0.957,
+  "ci_hour_length": [
+   0.955,
+   0.96
+  ],
+  "auc_gain_from_length": 0.0,
+  "ci_gain": [
+   0.0,
+   0.0
+  ]
+ },
+ "FLOOR-E": {
+  "auc_hour_only": 0.959,
+  "ci_hour_only": [
+   0.956,
+   0.962
+  ],
+  "auc_hour_length": 1.0,
+  "ci_hour_length": [
+   0.999,
+   1.0
+  ],
+  "auc_gain_from_length": 0.04,
+  "ci_gain": [
+   0.038,
+   0.043
+  ]
+ },
+ "FLOOR-L(pow2)": {
+  "auc_hour_only": 0.955,
+  "ci_hour_only": [
+   0.952,
+   0.958
+  ],
+  "auc_hour_length": 0.991,
+  "ci_hour_length": [
+   0.99,
+   0.992
+  ],
+  "auc_gain_from_length": 0.036,
+  "ci_gain": [
+   0.033,
+   0.039
+  ]
+ },
+ "FLOOR-L(q128)": {
+  "auc_hour_only": 0.957,
+  "ci_hour_only": [
+   0.955,
+   0.96
+  ],
+  "auc_hour_length": 0.969,
+  "ci_hour_length": [
+   0.966,
+   0.972
+  ],
+  "auc_gain_from_length": 0.011,
+  "ci_gain": [
+   0.009,
+   0.014
+  ]
+ },
+ "FLOOR-L(q16)": {
+  "auc_hour_only": 0.9577387616624257,
+  "ci_hour_only": [
+   0.9551107108020682,
+   0.9604568006206828
+  ],
+  "auc_hour_length": 0.9963997812597652,
+  "ci_hour_length": [
+   0.9958075937166544,
+   0.9969572008419417
+  ],
+  "auc_gain_from_length": 0.038661019597339585,
+  "ci_gain": [
+   0.03605485316555631,
+   0.041122643049886075
+  ]
+ },
+ "FLOOR-L(q64)": {
+  "auc_hour_only": 0.9562213622016527,
+  "ci_hour_only": [
+   0.9537964650440415,
+   0.9587517271082339
+  ],
+  "auc_hour_length": 0.9850554580274498,
+  "ci_hour_length": [
+   0.9834109044766014,
+   0.9865209716811327
+  ],
+  "auc_gain_from_length": 0.0288340958257971,
+  "ci_gain": [
+   0.02666798293280976,
+   0.031104574070862374
+  ]
+ },
+ "Static-Ascon": {
+  "auc_hour_only": 0.9572070709123452,
+  "ci_hour_only": [
+   0.9545962528287224,
+   0.9598327733265499
+  ],
+  "auc_hour_length": 1.0,
+  "ci_hour_length": [
+   0.9999999999999999,
+   1.0
+  ],
+  "auc_gain_from_length": 0.04279292908765475,
+  "ci_gain": [
+   0.0401672266734501,
+   0.04540374717127754
+  ]
+ }
+}

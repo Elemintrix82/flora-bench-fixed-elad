@@ -1,0 +1,5 @@
+FLOOR-E len-only 0.995 hour 0.958 hour+len 0.999 gain 0.041 [0.036 0.045]
+FLOOR-L(q16) len-only 0.948 hour 0.954 hour+len 0.995 gain 0.04 [0.036 0.044]
+FLOOR-L(q64) len-only 0.756 hour 0.958 hour+len 0.984 gain 0.026 [0.023 0.03 ]
+FLOOR-L(q128) len-only 0.621 hour 0.957 hour+len 0.97 gain 0.013 [0.009 0.016]
+FLOOR-L(pow2) len-only 0.855 hour 0.955 hour+len 0.991 gain 0.036 [0.032 0.039]

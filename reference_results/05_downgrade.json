@@ -1,0 +1,319 @@
+{
+ "Elad2026-rule": {
+  "clean": {
+   "E_J_mean": 2.749066802150821,
+   "below_floor_rate": {
+    "N": 0.0,
+    "R": 0.0,
+    "V": 0.0
+   },
+   "nonstd_rate": {
+    "R": 0.5340407322670068,
+    "V": 0.9666666666666667
+   },
+   "miss_rate": {
+    "N": 0.0,
+    "R": 0.0,
+    "V": 0.0
+   },
+   "protection_V": {
+    "rectangle_ctr_hmac/256": 58,
+    "ascon_armv7m/128": 2
+   },
+   "protection_R": {
+    "rectangle_ctr_hmac/256": 156624,
+    "ascon_armv7m/128": 136657
+   }
+  },
+  "attack": {
+   "E_J_mean": 35.2621286430887,
+   "below_floor_rate": {
+    "N": 0.0,
+    "R": 0.0,
+    "V": 0.0
+   },
+   "nonstd_rate": {
+    "R": 0.8424753052533236,
+    "V": 1.0
+   },
+   "miss_rate": {
+    "N": 0.0,
+    "R": 0.0,
+    "V": 0.0
+   },
+   "protection_V": {
+    "rectangle_ctr_hmac/256": 60
+   },
+   "protection_R": {
+    "rectangle_ctr_hmac/256": 247082,
+    "ascon_armv7m/128": 46199
+   }
+  },
+  "energy_increase_pct": 1247.7762970964122
+ },
+ "FLOOR-E": {
+  "clean": {
+   "E_J_mean": 1.420874968250582,
+   "below_floor_rate": {
+    "N": 0.0,
+    "R": 0.0,
+    "V": 0.0
+   },
+   "nonstd_rate": {
+    "R": 0.0,
+    "V": 0.0
+   },
+   "miss_rate": {
+    "N": 5.692167577413479e-07,
+    "R": 0.0,
+    "V": 0.0
+   },
+   "protection_V": {
+    "ascon_armv7m/128": 60
+   },
+   "protection_R": {
+    "ascon_armv7m/128": 293281
+   }
+  },
+  "attack": {
+   "E_J_mean": 29.856618758655365,
+   "below_floor_rate": {
+    "N": 0.0,
+    "R": 0.0,
+    "V": 0.0
+   },
+   "nonstd_rate": {
+    "R": 0.0,
+    "V": 0.0
+   },
+   "miss_rate": {
+    "N": 0.011253415300546448,
+    "R": 3.750669153473972e-05,
+    "V": 0.0
+   },
+   "protection_V": {
+    "ascon_armv7m/128": 60
+   },
+   "protection_R": {
+    "ascon_armv7m/128": 293281
+   }
+  },
+  "energy_increase_pct": 2154.438079724915
+ },
+ "FLOOR-L(q16)": {
+  "clean": {
+   "E_J_mean": 1.460214616429662,
+   "below_floor_rate": {
+    "N": 0.0,
+    "R": 0.0,
+    "V": 0.0
+   },
+   "nonstd_rate": {
+    "R": 0.0,
+    "V": 0.0
+   },
+   "miss_rate": {
+    "N": 5.692167577413479e-07,
+    "R": 0.0,
+    "V": 0.0
+   },
+   "protection_V": {
+    "ascon_armv7m/128": 60
+   },
+   "protection_R": {
+    "ascon_armv7m/128": 293281
+   }
+  },
+  "attack": {
+   "E_J_mean": 30.42573536832463,
+   "below_floor_rate": {
+    "N": 0.0,
+    "R": 0.0,
+    "V": 0.0
+   },
+   "nonstd_rate": {
+    "R": 0.0,
+    "V": 0.0
+   },
+   "miss_rate": {
+    "N": 0.011483948087431695,
+    "R": 4.773578922603237e-05,
+    "V": 0.0
+   },
+   "protection_V": {
+    "ascon_armv7m/128": 60
+   },
+   "protection_R": {
+    "ascon_armv7m/128": 293281
+   }
+  },
+  "energy_increase_pct": 2134.107465161283
+ },
+ "Q-learning (no floor)": {
+  "clean": {
+   "E_J_mean": 1.9076974000685407,
+   "below_floor_rate": {
+    "N": 0.44017987249544627,
+    "R": 0.7930005694197715,
+    "V": 0.7
+   },
+   "nonstd_rate": {
+    "R": 0.4131532557513102,
+    "V": 0.48333333333333334
+   },
+   "miss_rate": {
+    "N": 0.11163877504553735,
+    "R": 0.005636232827902251,
+    "V": 0.0
+   },
+   "protection_V": {
+    "xoodyak/32": 10,
+    "ascon_armv7m/32": 4,
+    "aesgcm/64": 1,
+    "ascon_armv7m/64": 4,
+    "chacha20poly1305/128": 4,
+    "xoodyak/64": 10,
+    "giftcofb/32": 3,
+    "chacha20poly1305/64": 5,
+    "xoodyak/128": 3,
+    "chacha20poly1305/32": 5,
+    "aesgcm/128": 4,
+    "ascon_armv7m/128": 4,
+    "giftcofb/128": 3
+   },
+   "protection_R": {
+    "ascon_armv7m/32": 42133,
+    "xoodyak/32": 45719,
+    "chacha20poly1305/32": 27601,
+    "ascon_armv7m/64": 32605,
+    "chacha20poly1305/64": 20159,
+    "ascon_armv7m/128": 18885,
+    "xoodyak/64": 29590,
+    "chacha20poly1305/128": 12658,
+    "giftcofb/32": 11755,
+    "giftcofb/64": 10425,
+    "xoodyak/128": 15025,
+    "giftcofb/128": 8656,
+    "aesgcm/64": 6170,
+    "aesgcm/128": 5485,
+    "aesgcm/32": 6415
+   }
+  },
+  "attack": {
+   "E_J_mean": 30.242856198884084,
+   "below_floor_rate": {
+    "N": 0.38632912112932605,
+    "R": 0.7111677878894302,
+    "V": 0.8
+   },
+   "nonstd_rate": {
+    "R": 0.39983838025647755,
+    "V": 0.45
+   },
+   "miss_rate": {
+    "N": 0.20104166666666667,
+    "R": 0.09537610687361268,
+    "V": 0.0
+   },
+   "protection_V": {
+    "giftcofb/32": 7,
+    "giftcofb/128": 3,
+    "ascon_armv7m/32": 5,
+    "chacha20poly1305/32": 4,
+    "xoodyak/64": 4,
+    "chacha20poly1305/64": 4,
+    "xoodyak/32": 4,
+    "aesgcm/64": 3,
+    "aesgcm/32": 5,
+    "giftcofb/64": 5,
+    "ascon_armv7m/128": 3,
+    "ascon_armv7m/64": 7,
+    "xoodyak/128": 4,
+    "chacha20poly1305/128": 1,
+    "aesgcm/128": 1
+   },
+   "protection_R": {
+    "ascon_armv7m/32": 30879,
+    "chacha20poly1305/32": 21747,
+    "xoodyak/32": 26664,
+    "ascon_armv7m/64": 21813,
+    "xoodyak/64": 24081,
+    "chacha20poly1305/128": 17973,
+    "giftcofb/128": 15215,
+    "giftcofb/32": 18277,
+    "ascon_armv7m/128": 19364,
+    "chacha20poly1305/64": 18917,
+    "xoodyak/128": 17780,
+    "giftcofb/64": 15248,
+    "aesgcm/64": 14453,
+    "aesgcm/128": 14377,
+    "aesgcm/32": 16493
+   }
+  },
+  "energy_increase_pct": 1557.10576380315
+ },
+ "Static-Ascon": {
+  "clean": {
+   "E_J_mean": 2.6000819316359682,
+   "below_floor_rate": {
+    "N": 0.0,
+    "R": 0.0,
+    "V": 0.0
+   },
+   "nonstd_rate": {
+    "R": 0.0,
+    "V": 0.0
+   },
+   "miss_rate": {
+    "N": 0.0,
+    "R": 0.0,
+    "V": 0.0
+   },
+   "protection_V": {
+    "ascon_armv7m/128": 60
+   },
+   "protection_R": {
+    "ascon_armv7m/128": 293281
+   }
+  },
+  "attack": {
+   "E_J_mean": 32.66890794512249,
+   "below_floor_rate": {
+    "N": 0.0,
+    "R": 0.0,
+    "V": 0.0
+   },
+   "nonstd_rate": {
+    "R": 0.0,
+    "V": 0.0
+   },
+   "miss_rate": {
+    "N": 0.0,
+    "R": 0.0,
+    "V": 0.0
+   },
+   "protection_V": {
+    "ascon_armv7m/128": 60
+   },
+   "protection_R": {
+    "ascon_armv7m/128": 293281
+   }
+  },
+  "energy_increase_pct": 1218.6026714911063
+ },
+ "header_tampering": {
+  "n_forgeries": 40000,
+  "accepted": {
+   "naive": 167,
+   "floor": 0
+  },
+  "expected_naive": 156.25,
+  "note": "FLOOR rejects the 1-byte tag by its policy table (no MAC needed); sanity check only"
+ },
+ "in_table_downgrade": {
+  "n": 10000,
+  "floor_tag_verified": 0,
+  "floor_R_released": 0,
+  "naive_single_key_accepted": 10000
+ }
+}

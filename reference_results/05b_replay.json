@@ -1,0 +1,19 @@
+{
+ "replayed_frames": 5000,
+ "same_session_after_acceptance": {
+  "naive": 5000,
+  "floor": 0
+ },
+ "new_session_after_repairing": {
+  "naive": 0,
+  "floor": 0
+ },
+ "same_key_receiver_state_lost": {
+  "naive": 5000,
+  "floor": 5000
+ },
+ "accepted": {
+  "naive": 5000,
+  "floor": 0
+ }
+}

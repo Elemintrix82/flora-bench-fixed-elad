@@ -1,0 +1,65 @@
+{
+ "ascon_armv7m": {
+  "label": "Ascon-AEAD128 (armv7m)",
+  "kat_vectors": 60,
+  "cross_checks": 50,
+  "elf_text_bytes": 7844,
+  "enc_cycles_per_byte_asympt": 41.75,
+  "enc_cycles_fixed_L0": 3548.0,
+  "max_data_dependence_sd": 0.0
+ },
+ "ascon_ref": {
+  "label": "Ascon-AEAD128 (ref C)",
+  "kat_vectors": 60,
+  "cross_checks": 50,
+  "elf_text_bytes": 22856,
+  "enc_cycles_per_byte_asympt": 86.3125,
+  "enc_cycles_fixed_L0": 5893.0,
+  "max_data_dependence_sd": 0.0
+ },
+ "aesgcm": {
+  "label": "AES-128-GCM (C)",
+  "kat_vectors": 0,
+  "cross_checks": 50,
+  "elf_text_bytes": 8776,
+  "enc_cycles_per_byte_asympt": 127.375,
+  "enc_cycles_fixed_L0": 5278.0,
+  "max_data_dependence_sd": 0.0
+ },
+ "chacha20poly1305": {
+  "label": "ChaCha20-Poly1305",
+  "kat_vectors": 0,
+  "cross_checks": 50,
+  "elf_text_bytes": 3076,
+  "enc_cycles_per_byte_asympt": 45.421875,
+  "enc_cycles_fixed_L0": 5846.0,
+  "max_data_dependence_sd": 0.0
+ },
+ "giftcofb": {
+  "label": "GIFT-COFB",
+  "kat_vectors": 60,
+  "cross_checks": 0,
+  "elf_text_bytes": 12536,
+  "enc_cycles_per_byte_asympt": 80.6875,
+  "enc_cycles_fixed_L0": 4103.0,
+  "max_data_dependence_sd": 0.0
+ },
+ "xoodyak": {
+  "label": "Xoodyak",
+  "kat_vectors": 60,
+  "cross_checks": 0,
+  "elf_text_bytes": 4208,
+  "enc_cycles_per_byte_asympt": 48.365234375,
+  "enc_cycles_fixed_L0": 2928.0,
+  "max_data_dependence_sd": 0.0
+ },
+ "rectangle_ctr_hmac": {
+  "label": "RECTANGLE-CTR+HMAC-SHA256",
+  "kat_vectors": 0,
+  "cross_checks": 50,
+  "elf_text_bytes": 10177,
+  "enc_cycles_per_byte_asympt": 177.390625,
+  "enc_cycles_fixed_L0": 13946.0,
+  "max_data_dependence_sd": 0.0
+ }
+}
